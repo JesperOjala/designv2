@@ -1,25 +1,23 @@
 ---
 title: "Min fina titel"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE class="profilbild" src="img/profilbild.png"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Hej, mitt namn är Jesper Ojala. Jag är 20 år gammal, född i Stockholm och uppvuxen i utanför Uppsala. Mina intressen kretsar framförallt kring musik med trummor som huvudinstrument, vilket jag spelat sedan sju års ålder. Musikstilen kretsar kring den mer brutala sorten, där en stor del av trumspelet består av så kallade "blast beats" i höga tempon.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag testade på Datavetenskapliga programmet vid Uppsala Universitet men kände att det inte var något för mig, utan ville istället hitta något programmeringsinriktad utbildning åt det mer praktiska hållet och förhoppninsvis har jag hittat rätt.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Fritiden spenderas periodvis åt intensivt låtskrivande, mixning samt trumspelsövande. Utöver detta har jag även ett intresse för spel och programmering. Har dock än så länge inte kommit längre med programmeringen än att ha följt någon enstaka Udemy-kurs, där det främst är Javascript jag arbetat med. Det råder dock stor tveksamhet om jag faktiskt lärde mig något av dessa kurser, men om inget annat har jag åtmistone bekantat mig med olika programmeringskoncept.
