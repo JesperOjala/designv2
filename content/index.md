@@ -9,6 +9,14 @@ views:
             meta:
                 type: single
                 route: block/byline
+
+    hem:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-hem
 ---
 Min me-sida i kursen design
 =========================
