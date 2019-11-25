@@ -1,0 +1,224 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+
+ /* Hide submenu, leave this to kmom02 */
+/*
+ .rm-desktop ul {
+     display: none;
+ }
+*/
+ /* Hide responsive/mobile menu, leave this to kmom02 */
+ /*.rm-navbar-max {
+     display: none;
+ }
+*/
+ /* Container */
+ .wrap-all {
+     background-color: #27292B;
+     color: white;
+ }
+
+ .outer-wrap {
+     //overflow: auto;
+ }
+ .outer-wrap-header {
+     background-color: #181A1B;
+     max-width: 100%;
+     padding: 10px;
+    .clearfix();
+ }
+
+ .region-header-col-1,
+ .region-header-col-3 {
+     width: 10%;
+     float: left;
+ }
+.region-header-col-2 {
+     width: 80%;
+     float: left;
+ }
+
+ .inner-wrap {
+     //max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ .outer-wrap-main {
+     max-width: 1000px;
+     margin: auto;
+     overflow: auto;
+ }
+
+.outer-wrap-breadcrumb {
+    max-width: 1000px;
+    margin: auto;
+}
+
+ .row::after {
+     clear: both;
+ }
+
+ /* Header */
+
+ /*.region-header-col-1 {
+     float: left;
+     width: 30%;
+     margin-right: 10px;
+ }
+
+ .region-header-col-2 {
+     float: left;
+     //width: 70%;
+ }
+*/
+ .site-logo {
+     display: none;
+ }
+
+ .my-navbar {
+     background-color: #181A1B;
+     //padding-top: 10px;
+     //padding-bottom: 10px;
+     //list-style-type: none;
+     //display: flex;
+     justify-content: space-between;
+     /*background-color: #38383d; */
+     text-transform: uppercase;
+     width: 100%;
+     text-align: center;
+ }
+
+
+ .my-navbar a {
+     display: inline;
+     padding: 0.5em 1em;
+     text-decoration: none;
+     color: white;
+     /*color: rgb(227, 227, 227);*/
+ }
+
+ .my-navbar a:hover {
+     background-color: rgb(119, 119, 119);
+     text-decoration: underline;
+ }
+
+ /* Main */
+
+
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar.has-sidebar-right {
+        margin-left: 0;
+        width: 60%;
+    }
+}
+
+
+.region-sidebar-right,
+.region-sidebar-left {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+    width: 20%;
+}
+
+ .inner-wrap-main {
+     padding: 30px 0;
+     .clearfix();
+ }
+
+
+ .region-main .block {
+     margin-top: 20px;
+     border-top: 1px solid #fff;
+ }
+
+ .region-main .block p {
+     float: left;
+     width: 850px;
+     margin: 20px 30px;
+ }
+
+ .byline-pic {
+     float: right;
+ }
+
+ .byline,
+ .block h1
+ {
+     color: rgb(196, 193, 193);
+ }
+
+ .block {
+     clear: both;
+ }
+
+ /* Footer */
+ .outer-wrap-footer {
+     background-color: #181A1B;
+     color: white;
+     max-width: 1000px;
+     margin: auto;
+ }
+
+ .inner-wrap-footer {
+     padding: 30px 0;
+ }
+
+ .footer-column-wrapper {
+     display: flex;
+ }
+
+ .region-footer>.block {
+     padding-top: 30px;
+     width: 100%;
+     text-align: center;
+ }
+
+
+ .profilbild {
+     float: right;
+     overflow: auto;
+     display: block;
+ }
+
+ .inner-wrap-main p {
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+/*
+.region-flash img {
+    max-width: 100%;
+}
+*/
+/*
+ .region-flash img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+ }
+*/
